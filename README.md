@@ -28,8 +28,6 @@
 ![View all tasks](https://i.imgur.com/J9jj9RV.png "Display all tasks")
 
 
-![Update task details](https://i.imgur.com/B7HHVi3.png "Update task details")
-
 ### Payment Management
 - Update the amount that has been paid for the project
 - Displaying payment history for a project and also information about the user responsible for the update
