@@ -22,11 +22,11 @@
 ### Task Management
 - Create a new task under a particular project
 - View task details such as name, status, etc. 
+- Update the status of a task eg (pending->in-progress)
+- Delete a task under a project
 
 ![View all tasks](https://i.imgur.com/J9jj9RV.png "Display all tasks")
 
-- Update the status of a task eg (pending->in-progress)
-- Delete a task under a project
 
 ![Update task details](https://i.imgur.com/B7HHVi3.png "Update task details")
 
