@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://tasky-fe.netlify.app/"><img src="https://i.imgur.com/4105WL1.png" title="Tasky homepage" alt="Tasky homepage"></a>
 
-## Available Scripts
+# Tasky
+> A project and task management app for anyone.
 
-In the project directory, you can run:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b45750c-5c0d-41e2-a613-6a074eb86544/deploy-status)](https://app.netlify.com/sites/tasky-fe/deploys)
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Current Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Project Management
+- Create a new project
+- View the percentage of completed tasks for a project
+- View the percentage of completed payment for a project
+- Edit information about the project such as (project name, description etc)
+- Delete a project from the system
+- View all the tasks available for a project and also the payment history of the project
 
-### `npm test`
+![View all projects](https://i.imgur.com/LrcNJTZ.png "Display all projects page")
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Task Management
+- Create a new task under a particular project
+- View task details such as name, status, etc. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![View all tasks](https://i.imgur.com/J9jj9RV.png "Display all tasks")
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Update the status of a task eg (pending->in-progress)
+- Delete a task under a project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Update task details](https://i.imgur.com/B7HHVi3.png "Update task details")
 
-### `npm run eject`
+### Payment Management
+- Update the amount that has been paid for the project
+- Displaying payment history for a project and also information about the user responsible for the update
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![View payment history](https://i.imgur.com/JQ5o6M3.png "View payment history")
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="https://tosinibrahim96.github.io/Resume/" target="_blank">Ibrahim Alausa</a>.
